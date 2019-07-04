@@ -1,7 +1,8 @@
 stages:
+- stage: PPE
   jobs:
   - deployment: DeployPPE
-    environment: Chperich-env1
+    environment: Nikhil-Env08
     pool: 'Hosted'
     strategy:
       runOnce:
