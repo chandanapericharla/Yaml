@@ -1,4 +1,5 @@
 stages:
+  jobs:
   - deployment: DeployPPE
     environment: Chperich-env1
     pool: 'Hosted'
