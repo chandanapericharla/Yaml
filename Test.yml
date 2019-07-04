@@ -1,0 +1,10 @@
+stages:
+  - deployment: DeployPPE
+    environment: Chperich-env1
+    pool: 'Hosted'
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - script: echo Hello, world!
+            displayName: 'Run a one-line script'
